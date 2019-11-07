@@ -69,11 +69,36 @@ nav ul li:first-child {
 }
 
 .totm {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+}
+.totm div img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
 }
 
 .locations {
     background-image: url("./pics/img-locations-background.jpg");
+    height: 500px;
+    width: auto;
+    margin: 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.locations div {
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+}
+.locations div h4 {
+    opacity: 1;
+    padding: 15px;
 }
 
 .contact {
