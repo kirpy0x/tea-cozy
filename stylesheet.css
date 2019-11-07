@@ -36,6 +36,7 @@ nav ul li {
 }
 nav ul li:first-child {
     margin-right: auto;
+    padding-top: 0.5em;
 }
 .nav li {
     list-style: none;
@@ -56,6 +57,7 @@ nav ul li:first-child {
     width: 1200px;
     display: flex;
     align-items: center;
+    align-self: center;
 
 }
 
