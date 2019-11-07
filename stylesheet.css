@@ -10,3 +10,48 @@ html {
     opacity: 0.9;
     text-align: center;
 }
+.nav {
+    height: 69px;
+    width: auto;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.main {
+    background-image: url("./pics/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+
+}
+
+.mission {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 100%
+}
+
+.totm {
+
+}
+
+.locations {
+    background-image: url("./pics/img-locations-background.jpg");
+}
+
+.contact {
+
+}
+
+.footer {
+
+}
