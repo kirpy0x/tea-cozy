@@ -89,12 +89,14 @@ nav ul li:first-child {
     background-size: 100%;
     display: flex;
     align-items: center;
+
     
 }
 .locations div {
     background-color: black;
     width: 300px;
     margin: 40px;
+    flex: 1 1 300px;
 }
 .locations div h4 {
     opacity: 1;
@@ -102,9 +104,12 @@ nav ul li:first-child {
 }
 
 .contact {
-
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .footer {
-
+    text-align: left;
 }
