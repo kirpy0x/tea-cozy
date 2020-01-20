@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    
+
 }
 html {
     font-family: Helvetica;
@@ -27,7 +27,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    
+
 }
 nav ul li {
     display: inline-block;
@@ -54,7 +54,7 @@ nav ul li:first-child {
 .main {
     background-image: url("./pics/img-mission-background.jpg");
     height: 700px;
-    width: 1200px;
+    width: 90%;
     display: flex;
     align-items: center;
     align-self: center;
@@ -63,7 +63,6 @@ nav ul li:first-child {
 
 .mission {
     background-color: black;
-
     padding: 10px;
     width: 100%
 }
@@ -90,12 +89,12 @@ nav ul li:first-child {
     display: flex;
     align-items: center;
 
-    
+
 }
 .locations div {
     background-color: black;
     width: 300px;
-    margin: 40px;
+    margin: .2em;
     flex: 1 1 300px;
 }
 .locations div h4 {
